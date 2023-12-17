@@ -11,7 +11,7 @@ Dependencies
 clone the repo
 
 ```bash
-git clone https:github.com/JaKooLit/GTK-themes-icons.git
+git clone https://github.com/JaKooLit/GTK-themes-icons.git
 cd GTK-themes-icons
 chmod +× auto-extract.sh
 ./auto-extract.sh
