@@ -8,13 +8,17 @@ to auto extract / install:
 Dependencies
 - ensure `unzip` is installed 
 
+clone the repo
+
 ```bash
-chmod auto-extract.sh
+git clone https:github.com/JaKooLit/GTK-themes-icons.git
+cd GTK-themes-icons
+chmod +× auto-extract.sh
 ./auto-extract.sh
 source ~/.zshrc
 ```
 
-Manual
+Manual (do this after cloning and CD into GTK-themes-icons)
 ```bash
 mkdir -p ~/.icons
 mkdir -p ~/.themes
