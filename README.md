@@ -22,10 +22,10 @@ Manual (do this after cloning and CD into GTK-themes-icons)
 ```bash
 mkdir -p ~/.icons
 mkdir -p ~/.themes
-unzip -qo "theme/Tokyonight-Dark-BL-LB.zip" -d ~/.themes
-unzip -qo "theme/Tokyonight-Light-B-LB.zip" -d ~/.themes
-unzip -qo "icon/Tokyonight-Dark-Icons.zip" -d ~/.icons
-unzip -qo "icon/Tokyonight-Light-Icons.zip" -d ~/.icons
+tar -xzvf "theme/Tokyonight-Dark-BL-LB.tar.gz" -C ~/.themes
+tar -xzvf "theme/Tokyonight-Light-B-LB.tar.gz" -C ~/.themes
+tar -xzvf "icon/Tokyonight-Dark.tar.gz" -C ~/.icons
+tar -xzvf "icon/Tokyonight-Light.tar.gz" -C ~/.icons
 ```
 
 
