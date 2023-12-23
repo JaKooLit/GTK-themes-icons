@@ -27,7 +27,7 @@ untar_files() {
         for file in "$source_dir"/*.tar.gz; do
             if [ -f "$file" ]; then
                 log_message "Extracting $file to $destination..." "$LOG"
-                tar -xzvf "$file" -C "$destination" 2>/dev/null || true
+                tar -xzvf "$file" -C "$destination" 2>/dev/null && wait $!
                 log_message "Extracted $file to $destination $OK" "$LOG"
             fi
         done
