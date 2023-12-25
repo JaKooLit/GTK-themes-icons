@@ -48,5 +48,4 @@ untar_files "theme" ~/.themes
 # Untar files from the 'icon' directory to ~/.icons
 untar_files "icon" ~/.icons
 
-# Provide a summary message
-echo "${OK} Installation completed. Check log file '$LOG' for details."
+
