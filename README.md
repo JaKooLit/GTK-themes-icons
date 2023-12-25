@@ -14,7 +14,6 @@ git clone https://github.com/JaKooLit/GTK-themes-icons.git
 cd GTK-themes-icons
 chmod +x auto-extract.sh
 ./auto-extract.sh
-source ~/.zshrc
 ```
 
 Manual (do this after cloning and CD into GTK-themes-icons)
