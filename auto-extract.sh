@@ -5,7 +5,7 @@ OK="$(tput setaf 2)[OK]$(tput sgr0)"
 ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
 
 # Set the name of the log file to include the current date and time
-LOG="install-$(date +%d-%H%M%S)_themes.log"
+SLOG="install-$(date +%d-%H%M%S)_themes.log"
 
 # Function to extract files with overwrite option
 extract_files() {
@@ -45,7 +45,7 @@ mkdir -p ~/.icons
 mkdir -p ~/.themes
 
 # Extract files from 'theme' directory to ~/.themes using tar and log output
-extract_files "theme" ~/.themes "tar" 2>&1 | tee -a "$LOG"
+extract_files "theme" ~/.themes "tar" 2>&1 | tee -a "$SLOG"
 
 # Extract files from 'icon' directory to ~/.icons using unzip and log output
-extract_files "icon" ~/.icons "unzip" 2>&1 | tee -a "$LOG"
+extract_files "icon" ~/.icons "unzip" 2>&1 | tee -a "$SLOG"
