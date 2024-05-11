@@ -1,9 +1,9 @@
 # GTK-themes-icons
-GTK Themes and icons for my Hyprland install scripts
+### GTK Themes and icons for my Hyprland install scripts & dots
 
-This will be only as hosting for the gtk themes and icons that will be pulled during installation of Hyprland using my Hyprland install scripts
+### This will be only as hosting for the gtk themes and icons that will be pulled during installation of Hyprland using my Hyprland install scripts
 
-to auto extract / install:
+### to auto extract / install:
 
 Dependencies
 `tar` & `unzip`
@@ -40,7 +40,9 @@ gsettings set org.gnome.desktop.interface gtk-theme Tokyonight-Dark-Moon-BL-LB
 gsettings set org.gnome.desktop.interface icon-theme Flat-Remix-Blue-Dark
 
 
-🤟 Give love these sources
-CREDIT and Source:
+
+
+## 🤟 Give love these sources
+## CREDIT and Source:
 - Tokyo night GTK themes  [`LINK`](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme)
 - Flat remix Icon Temes [`LINK`](https://github.com/daniruiz/flat-remix)
