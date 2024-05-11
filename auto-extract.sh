@@ -48,4 +48,4 @@ mkdir -p ~/.themes
 extract_files "theme" ~/.themes "tar" 2>&1 | tee -a "$SLOG"
 
 # Extract files from 'icon' directory to ~/.icons using unzip and log output
-extract_files "icon" ~/.icons "unzip" 2>&1 | tee -a "$SLOG"
+extract_files "icon" ~/.icons "tar" 2>&1 | tee -a "$SLOG"
