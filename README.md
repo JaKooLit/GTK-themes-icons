@@ -6,7 +6,7 @@ This will be only as hosting for the gtk themes and icons that will be pulled du
 to auto extract / install:
 
 Dependencies
-`tar`
+`tar` & `unzip`
 
 clone the repo
 ```bash
@@ -22,8 +22,8 @@ mkdir -p ~/.icons
 mkdir -p ~/.themes
 tar -xzvf "theme/Tokyonight-Dark-Moon-BL-LB.tar.gz" -C ~/.themes
 tar -xzvf "theme/Tokyonight-Light-Moon-BL-LB.tar.gz" -C ~/.themes
-tar -xzvf "icon/Flat-Remix-Blue-Dark.tar.gz" -C ~/.icons
-tar -xzvf "icon/Flat-Remix-Blue-Light.tar.gz" -C ~/.icons
+unzip -o -q "icon/Flat-Remix-Blue-Dark.zip" -d ~/.icons
+unzip -o -q "icon/Flat-Remix-Blue-Light.zip" -d ~/.icons
 ```
 CREDIT and Source:
 - Tokyo night GTK themes  [`LINK`](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme)
