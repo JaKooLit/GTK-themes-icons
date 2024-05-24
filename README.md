@@ -26,8 +26,8 @@ Unpack
 ```bash
 mkdir -p ~/.icons
 mkdir -p ~/.themes
-tar -xzvf "theme/Tokyonight-Dark-Moon-BL-LB.tar.gz" -C ~/.themes
-tar -xzvf "theme/Tokyonight-Light-Moon-BL-LB.tar.gz" -C ~/.themes
+tar -xzvf "theme/Andromeda-dark.tar.gz" -C ~/.themes
+tar -xzvf "theme/WhiteSur-Lighttar.gz" -C ~/.themes
 unzip -o -q "icon/Flat-Remix-Blue-Dark.zip" -d ~/.icons
 unzip -o -q "icon/Flat-Remix-Blue-Light.zip" -d ~/.icons
 ```
@@ -36,13 +36,12 @@ you apply the icons and themes using `nwg-look` [`LINK`](https://github.com/nwg-
 
 or
 
-gsettings set org.gnome.desktop.interface gtk-theme Tokyonight-Dark-Moon-BL-LB
+gsettings set org.gnome.desktop.interface gtk-theme Andromeda-dark
 gsettings set org.gnome.desktop.interface icon-theme Flat-Remix-Blue-Dark
 
 
 
-
-## 🤟 Give love these sources
-## CREDIT and Source:
-- Tokyo night GTK themes  [`LINK`](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme)
+## 🤟 CREDIT and Source:
+- Andromeda Dark GTK Theme [`LINK`](https://github.com/EliverLara/Andromeda-gtk)
+- WhiteSur Light GTK Theme [`LINK`](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 - Flat remix Icon Temes [`LINK`](https://github.com/daniruiz/flat-remix)
