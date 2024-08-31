@@ -35,11 +35,11 @@ unzip -o -q "icon/Flat-Remix-Blue-Light.zip" -d ~/.icons
 you apply the icons and themes using `nwg-look` [`LINK`](https://github.com/nwg-piotr/nwg-look)
 
 or
-'''bash
+```bash
 gsettings set org.gnome.desktop.interface gtk-theme Andromeda-dark
 
 gsettings set org.gnome.desktop.interface icon-theme Flat-Remix-Blue-Dark
-'''
+```
 
 
 ## 🤟 CREDIT and Source:
