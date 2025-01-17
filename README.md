@@ -26,8 +26,8 @@ Unpack
 ```bash
 mkdir -p ~/.icons
 mkdir -p ~/.themes
-tar -xzvf "theme/Andromeda-dark.tar.gz" -C ~/.themes
-tar -xzvf "theme/WhiteSur-Lighttar.gz" -C ~/.themes
+tar -xzvf "theme/Kali-dark.tar.gz" -C ~/.themes
+tar -xzvf "theme/Kali-Light.tar.gz" -C ~/.themes
 unzip -o -q "icon/Flat-Remix-Blue-Dark.zip" -d ~/.icons
 unzip -o -q "icon/Flat-Remix-Blue-Light.zip" -d ~/.icons
 ```
